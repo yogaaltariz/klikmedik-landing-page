@@ -1,9 +1,4 @@
 module.exports = {
-  purge: {
-    mode: 'all',
-    enabled: true,
-    content: ['./*.html'],
-  },
   theme: {
     extend: {
       container: {

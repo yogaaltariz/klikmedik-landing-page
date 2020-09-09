@@ -45,25 +45,31 @@
         </div>
 
         <ul>
-          <li class="inline font-bold font-poppins mr-2 text-sm">Fitur</li>
-          <li class="inline font-bold font-poppins mr-2 text-sm">Keunggulan</li>
-          <li class="inline font-bold font-poppins mr-2 text-sm">Harga</li>
-          <li class="inline font-bold font-poppins mr-2 text-sm">Testimoni</li>
-          <li class="inline">
+          <li class="font-bold font-poppins mr-2 text-sm hidden lg:inline">Fitur</li>
+          <li class="font-bold font-poppins mr-2 text-sm hidden lg:inline">Keunggulan</li>
+          <li class="font-bold font-poppins mr-2 text-sm hidden lg:inline">Harga</li>
+          <li class="font-bold font-poppins mr-2 text-sm hidden lg:inline">Testimoni</li>
+          <li class="hidden lg:inline">
             <button class="rounded-lg px-8 py-2 bg-white text-red-600 shadow text-center font-semibold">
               Ajukan Demo
             </button>
           </li>
         </ul>
 
+        <a href="#" class="inline lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class=" text-white" fill="currentColor" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path d="M4 6H20V8H4zM8 11H20V13H8zM13 16H20V18H13z" /></svg>
+        </a>
+
       </nav>
     </div>
   </header>
 
-  <section id="hero-area" class="bg-gradient-to-b from-red-600  to-red-500 text-white min-h-screen pt-10 pb-32">
+  <section id="hero-area" class="bg-red-600 text-white min-h-full md:min-h-screen pt-10 pb-0 sm:pb-32">
     <div class="max-w-full md:max-w-3/4 mx-auto px-4 md:px-0" data-aos="fade-down" data-aos-duration="700"
       data-aos-delay="300">
-      <h1 class="text-5xl md:text-6xl leading-none mb-10">Digitalisasi pelayanan kesehatan, <br> dalam satu klik.
+      <h1 class="leading-none mb-10">Digitalisasi pelayanan kesehatan, <br> dalam satu klik.
       </h1>
       <p class="max-w-lg font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laborum at
         exercitationem ipsa commodi fugit reiciendis doloremque a soluta quod.
@@ -71,31 +77,35 @@
       <button class="rounded-lg px-8 py-2 bg-red-500 text-white shadow text-center font-semibold mt-10">
         Eksplorasi fitur
       </button>
-      <button class="rounded-lg px-8 py-2 bg-white text-red-600 shadow text-center font-semibold mt-10">
+      <button class="rounded-lg px-8 py-2 bg-white text-red-600 shadow text-center font-semibold mt-5 sm:mt-10">
         Ajukan Demo
       </button>
       <img src="img/mockup-desktop.png" alt="dashboard-img"
-        class="screen-first mt-10 transform hover:scale-110 hover:mt-14 duration-700">
+        class="screen-first mt-10 transform hover:scale-110 hover:mt-14 duration-700 pb-16 md:pb-0">
     </div>
-
   </section>
-  <img src="/img/white-curve-1.svg" alt="" class="w-full -mt-24">
+  <img src="/img/white-curve-1.svg" alt="" class="w-full -mt-6 sm:-mt-12 lg:-mt-20 xl:-mt-24">
+
 
   <section id="partner-area" class="py-10">
     <div class="max-w-full md:max-w-3/4 mx-auto px-4 md:px-0 ">
-      <h2 class="text-center mb-10 capitalize text-2xl">Rumah sakit & klinik yang telah mempercayakan kami</h2>
-      <div class="flex justify-around">
-        <img class="h-24 w-24" src="https://d2zv2ciw0ln4h1.cloudfront.net/uploads/ibm_1f63f8c1a8.svg" alt="">
-        <img class="h-24 w-24" src="https://d2zv2ciw0ln4h1.cloudfront.net/uploads/nasa_4a7ec47708.svg" alt="">
-        <img class="h-24 w-24" src="https://d2zv2ciw0ln4h1.cloudfront.net/uploads/walmart_ca6a68695b.svg" alt="">
-        <img class="h-24 w-24" src="https://d2zv2ciw0ln4h1.cloudfront.net/uploads/ibm_1f63f8c1a8.svg" alt="">
+      <h3 class="text-center mb-10 capitalize">Rumah sakit & klinik yang telah mempercayakan kami</h3>
+      <div class="flex flex-wrap justify-around">
+        <img class="h-12 w-1/4 p-2 mb-2" src="https://d2zv2ciw0ln4h1.cloudfront.net/uploads/ibm_1f63f8c1a8.svg"
+          alt="partner-logo">
+        <img class="h-12 w-1/4 p-2 mb-2" src="https://d2zv2ciw0ln4h1.cloudfront.net/uploads/nasa_4a7ec47708.svg"
+          alt="partner-logo">
+        <img class="h-12 w-1/4 p-2 mb-2" src="https://d2zv2ciw0ln4h1.cloudfront.net/uploads/walmart_ca6a68695b.svg"
+          alt="partner-logo">
+        <img class="h-12 w-1/4 p-2 mb-2" src="https://d2zv2ciw0ln4h1.cloudfront.net/uploads/ibm_1f63f8c1a8.svg"
+          alt="partner-logo">
       </div>
     </div>
   </section>
 
   <section id="advantages" class="py-10 bg-gray-100">
     <div class="max-w-full md:max-w-3/4 mx-auto px-4 md:px-0 ">
-      <h2 class="text-center capitalize text-4xl mb-4">Apa yang membuat klikmedik berbeda ?</h2>
+      <h2 class="text-center capitalize mb-4">Apa yang membuat klikmedik berbeda ?</h2>
       <hr class="max-w-1/4 mx-auto border border-red-400">
       <p class="text-center mt-5  max-w-3/4 mx-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
         Voluptatibus quia
@@ -129,9 +139,9 @@
             <rect width="14" height="3" x="24" y="30" fill="#b3cbff"></rect>
             <path fill="#9abaff" d="M37,36H25c-0.552,0-1-0.448-1-1v-2h14v2C38,35.552,37.552,36,37,36z"></path>
           </svg>
-          <h3 class="mb-2">
+          <p class="mb-2 font-poppins">
             Free manual report
-          </h3>
+          </p>
           <p>With lots of unique blocks, you can easily build a page without coding.</p>
         </div>
         <div
@@ -169,9 +179,9 @@
               d="M32.5,31h-19c-0.276,0-0.5-0.224-0.5-0.5v-2c0-0.276,0.224-0.5,0.5-0.5h19c0.276,0,0.5,0.224,0.5,0.5	v2C33,30.776,32.776,31,32.5,31z">
             </path>
           </svg>
-          <h3 class="mb-2">
+          <p class="mb-2 font-poppins">
             Well Documented
-          </h3>
+          </p>
           <p>With lots of unique blocks, you can easily build a page without coding.</p>
         </div>
         <div
@@ -187,9 +197,9 @@
               d="M42,8H6c-1.105,0-2,0.895-2,2v26c0,1.105,0.895,2,2,2h8v7.998	c0,0.891,1.077,1.337,1.707,0.707L24.412,38H42c1.105,0,2-0.895,2-2V10C44,8.895,43.105,8,42,8z">
             </path>
           </svg>
-          <h3 class="mb-2">
+          <p class="mb-2 font-poppins">
             Great Support
-          </h3>
+          </p>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, dolores.</p>
         </div>
       </div>
@@ -198,8 +208,9 @@
 
   <section id="terms" class="py-10">
     <div class="max-w-full md:max-w-3/4 mx-auto px-4 md:px-0 ">
-      <div class="flex items-center flex-wrap">
-        <div class="w-full md:w-1/2 mx-auto" data-aos="fade-right" data-aos-duration="700">
+      <!-- advantage banner -->
+      <div class="flex items-center flex-wrap mb-10">
+        <div class="w-full lg:w-1/2 mx-auto" data-aos="fade-right" data-aos-duration="700">
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 300">
             <defs>
               <linearGradient id="linear-gradient" x1="190.26" y1="246.91" x2="203.41" y2="236.24"
@@ -365,25 +376,19 @@
             </g>
           </svg>
         </div>
-        <div class="max-w-full md:max-w-md mx-auto">
-          <h1 class="text-3xl mb-6">Saving the environment by less paper used</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et quibusdam nesciunt! Nisi eligendi non
-            natus, ab saepe quisquam? Accusantium, asperiores unde consectetur at magnam officia dolore totam enim
-            excepturi.</p>
-
+        <div class="w-full lg:w-1/2 pl-0 lg:pl-12 mt-10 md:mt-0">
+          <div class="max-w-full lg:max-w-sm xl:max-w-md mx-auto text-center lg:text-left">
+            <h2 class="mb-6">Saving the environment by less paper used</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et quibusdam nesciunt! Nisi eligendi non
+              natus, ab saepe quisquam? Accusantium, asperiores unde consectetur at magnam officia dolore totam enim
+              excepturi.</p>
+          </div>
         </div>
       </div>
 
-      <div class="flex items-center justify-between flex-col-reverse lg:flex-row flex-wrap">
-        <div class="md:max-w-md mx-auto max-w-full">
-          <h1 class="text-3xl mb-6">Swipe more
-            productively</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et quibusdam nesciunt! Nisi eligendi non
-            natus, ab saepe quisquam? Accusantium, asperiores unde consectetur at magnam officia dolore totam enim
-            excepturi.</p>
-
-        </div>
-        <div class="w-full sm:w-1/2 mx-auto" data-aos="fade-left" data-aos-duration="700">
+      <!-- advantage banner -->
+      <div class="flex items-center justify-between lg:flex-row-reverse flex-wrap mb-10">
+        <div class="w-full lg:w-1/2 mx-auto" data-aos="fade-left" data-aos-duration="700">
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 300">
             <defs>
               <linearGradient id="linear-gradient" x1="1908.27" y1="141.01" x2="1871.65" y2="181.17"
@@ -498,10 +503,21 @@
             </g>
           </svg>
         </div>
+        <div class="w-full lg:w-1/2 pl-0 lg:pl-12 mt-10 md:mt-0">
+          <div class="max-w-full lg:max-w-sm xl:max-w-md mx-auto text-center lg:text-left">
+            <h2 class="mb-6">Swipe more
+              productively</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et quibusdam nesciunt! Nisi eligendi non
+              natus, ab saepe quisquam? Accusantium, asperiores unde consectetur at magnam officia dolore totam enim
+              excepturi.</p>
+          </div>
+        </div>
       </div>
 
-      <div class="flex items-center flex-wrap">
-        <div class="w-full md:w-1/2" data-aos="fade-right" data-aos-delay="700">
+
+      <!-- advantage banner -->
+      <div class="flex items-center flex-wrap mb-10">
+        <div class="w-full lg:w-1/2 mx-auto" data-aos="fade-right" data-aos-duration="700">
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 300">
             <defs>
               <linearGradient id="linear-gradient" x1="208.49" y1="185.91" x2="193.08" y2="160.1"
@@ -766,14 +782,17 @@
             </g>
           </svg>
         </div>
-        <div class="max-w-full md:max-w-md mx-auto">
-          <h1 class="text-3xl mb-6">Adapative and interconnected with the goverment services</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et quibusdam nesciunt! Nisi eligendi non
-            natus, ab saepe quisquam? Accusantium, asperiores unde consectetur at magnam officia dolore totam enim
-            excepturi.</p>
-
+        <div class="w-full lg:w-1/2 pl-0 lg:pl-12 mt-10 md:mt-0">
+          <div class="max-w-full lg:max-w-sm xl:max-w-md mx-auto text-center lg:text-left">
+            <h2 class="mb-6">Adapative and interconnected with the goverment services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et quibusdam nesciunt! Nisi eligendi non
+              natus, ab saepe quisquam? Accusantium, asperiores unde consectetur at magnam officia dolore totam enim
+              excepturi.</p>
+          </div>
         </div>
       </div>
+
+
     </div>
   </section>
 
@@ -784,7 +803,7 @@
           modul <span class="text-red-600">klikmedik</span>
         </span>
       </div>
-      <h2 class="text-center capitalize text-4xl mb-4">Manajemen rumah sakit jadi lebih mudah</h2>
+      <h2 class="text-center capitalize mb-4">Manajemen rumah sakit jadi lebih mudah</h2>
       <hr class="max-w-1/4 mx-auto border border-red-400">
       <p class="text-center mt-5  max-w-3/4 mx-auto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo ad
         soluta perferendis cupiditate dolorum dolor, praesentium aliquid.</p>
@@ -839,13 +858,13 @@
   <section id="pricing" class="py-10">
     <div class="max-w-full md:max-w-3/4 mx-auto px-4 md:px-0 ">
       <div class="mb-10">
-        <h2 class="text-center capitalize text-4xl mb-4">Get the right plan for future product.</h2>
+        <h2 class="text-center capitalize mb-4">Get the right plan for future product.</h2>
         <hr class="max-w-1/4 mx-auto border border-red-400">
         <p class="text-center mt-5  max-w-3/4 mx-auto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo ad
           soluta perferendis cupiditate dolorum dolor, praesentium aliquid.</p>
       </div>
 
-      <div id="pricing-table" class="mb-10">
+      <div id="pricing-table" class="pb-10 overflow-auto">
         <table class="w-full">
           <thead>
             <tr>
@@ -935,7 +954,7 @@
               </td>
               <td class="px-5">
                 <div class="mt-10 mb-5">
-                  <h3>Free</h3>
+                  <h3>Free all time</h3>
                   <span class="text-xs">no credit required</span>
                 </div>
                 <button class="px-3 py-2 shadow rounded w-full bg-red-600 text-white">
@@ -1023,20 +1042,10 @@
     </div>
   </section>
 
-  <div class="relative">
-    <svg xmlns="http://www.w3.org/2000/svg" width="1010" height="122" viewBox="0 0 1010 122" class="absolute top-0"
-      style="left: -147px;">
-      <g>
-        <g>
-          <path fill="#fff"
-            d="M1797.713-2.131S631.114-35.905 194.189 87.38c-436.925 123.285 0-122.032 0-122.032h1605" />
-        </g>
-      </g>
-    </svg>
-  </div>
+
   <section id="contact" class="pt-32 pb-24 bg-gray-200">
     <div class="max-w-full md:max-w-3/4 mx-auto px-4 md:px-0">
-      <h2 class="capitalize text-4xl mb-5">Contact us</h2>
+      <h2 class="capitalize mb-5">Contact us</h2>
       <div class="grid grid-cols-2 gap-8">
         <div>
           <p class="mb-5 text-lg">You can easily reach us by send us a message. </p>
