@@ -22918,6 +22918,34 @@ h3 {
   font-family: Poppins, Sans-serif;
 }
 
+h1 {
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 1.875rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  ,
+  h2 {
+    font-size: 2.25rem;
+  }
+
+  ,
+  h3 {
+    font-size: 1.25rem;
+  }
+}
+
 .navbar {
   z-index: 9999;
 }
@@ -22928,7 +22956,7 @@ h3 {
   background-color: rgba(229, 62, 62, var(--bg-opacity)) !important;
 }
 
-.splide__pagination{
+.splide__pagination {
   position: relative !important;
   display: inline-flex !important;
   flex-wrap: wrap !important;
@@ -112100,5 +112128,6 @@ h3 {
     animation: bounce 1s infinite;
   }
 }
+
 
 /*# sourceMappingURL=/main.c52e0fe2.css.map */
