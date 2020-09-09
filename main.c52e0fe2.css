@@ -22950,6 +22950,50 @@ h3 {
   z-index: 9999;
 }
 
+.toggle-checkbox:checked {
+  right: 0;
+  --border-opacity: 1;
+  border-color: #e53e3e;
+  border-color: rgba(229, 62, 62, var(--border-opacity));
+  right: 0;
+}
+
+.toggle-checkbox:checked+.toggle-label {
+  --bg-opacity: 1;
+  background-color: #e53e3e;
+  background-color: rgba(229, 62, 62, var(--bg-opacity));
+}
+
+@media (min-width: 1280px) {
+  #pricing-table table {
+    display: table !important;
+  }
+
+  #pricing-table thead {
+    display: table-header-group !important;
+  }
+
+  #pricing-table tbody {
+    display: table-row-group !important;
+  }
+
+  #pricing-table th,
+  #pricing-table td {
+    min-width: 100%;
+  }
+}
+
+#pricing-table table,
+#pricing-table thead,
+#pricing-table tbody {
+  display: block;
+}
+
+#pricing-table th,
+#pricing-table td {
+  min-width: 195px;
+}
+
 .splide__pagination__page.is-active {
   --bg-opacity: 1 !important;
   background-color: #e53e3e !important;
